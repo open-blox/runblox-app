@@ -29,6 +29,22 @@ body:
     validations:
       required: true
   - type: input
+    id: wallet
+    attributes:
+      label: Wallet Address
+      description: Optional
+      placeholder: 0x...
+    validations:
+      required: false
+  - type: input
+    id: nft_id
+    attributes:
+      label: NFT ID
+      description: Optional
+      placeholder: 12345
+    validations:
+      required: false
+  - type: input
     id: app_version
     attributes:
       label: RunBlox App version
@@ -43,9 +59,11 @@ body:
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
       value: |
-        1. Go to '...'
-        2. Click on '....'
-        3. Scroll down to '....'
-        4. See error
+        1. At 2022.06.15 23:12 PM UTC
+        2. Go to '...'
+        3. Click on '....'
+        4. Scroll down to '....'
+        5. See error
+        6. Attach a screenshot...
     validations:
       required: true
