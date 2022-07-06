@@ -1,4 +1,3 @@
----
 name: Bug form
 description: File a Issue report
 title: "[BUG]: "
@@ -50,7 +49,3 @@ body:
         4. See error
     validations:
       required: true
----
-
-**Additional context**
-Add any other context about the problem here.
