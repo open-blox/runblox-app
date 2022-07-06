@@ -41,7 +41,7 @@ body:
     attributes:
       label: NFT ID
       description: Optional
-      placeholder: 12345
+      placeholder: '12345'
     validations:
       required: false
   - type: input
@@ -49,7 +49,7 @@ body:
     attributes:
       label: RunBlox App version
       description: Which version you are experiencing issues?
-      placeholder: 1.2.2.131
+      placeholder: '1.2.2.131'
     validations:
       required: true
   - type: textarea
