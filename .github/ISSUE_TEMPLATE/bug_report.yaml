@@ -2,7 +2,7 @@ name: Bug form
 description: File a Issue report
 title: "[BUG]: "
 labels: ["help wanted"]
-assignees: ''
+# assignees: ''
 body:
   - type: markdown
     attributes:
