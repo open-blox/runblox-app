@@ -8,8 +8,8 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-
-        Please fill out the issue report form
+        Please refer to [CONTRIBUTING.md](https://github.com/open-blox/runblox-app/blob/master/CONTRIBUTING.md>) on details of bug reports.
+        Please fill out the issue report form.
   - type: dropdown
     id: os
     attributes:
@@ -32,7 +32,9 @@ body:
     id: wallet
     attributes:
       label: Wallet Address
-      description: Optional
+      description: |
+        Optional, if you feel uncomfortable about sharing wallet address, please send us an email.
+        See [CONTRIBUTING.md](https://github.com/open-blox/runblox-app/blob/master/CONTRIBUTING.md>) about email format.
       placeholder: 0x...
     validations:
       required: false
@@ -40,7 +42,9 @@ body:
     id: nft_id
     attributes:
       label: NFT ID
-      description: Optional
+      description: |
+        Optional, if you feel uncomfortable about sharing NFT ID, please send us an email.
+        See [CONTRIBUTING.md](https://github.com/open-blox/runblox-app/blob/master/CONTRIBUTING.md>) about email format.
       placeholder: '12345'
     validations:
       required: false
