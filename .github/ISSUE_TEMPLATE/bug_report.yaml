@@ -8,8 +8,8 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
+        Before creating a new issue, please ask our community for help first and check if there are existing ones.
         Please refer to [CONTRIBUTING.md](https://github.com/open-blox/runblox-app/blob/master/CONTRIBUTING.md>) on details of bug reports.
-        Please fill out the issue report form.
   - type: dropdown
     id: os
     attributes:
@@ -33,7 +33,7 @@ body:
     attributes:
       label: Wallet Address
       description: |
-        Optional, if you feel uncomfortable about sharing wallet address, please send us an email.
+        Optional, if you feel uncomfortable about sharing wallet address, please provide your Discord ticket number or send us an email.
         See [CONTRIBUTING.md](https://github.com/open-blox/runblox-app/blob/master/CONTRIBUTING.md>) about email format.
       placeholder: 0x...
     validations:
@@ -43,9 +43,18 @@ body:
     attributes:
       label: NFT ID
       description: |
-        Optional, if you feel uncomfortable about sharing NFT ID, please send us an email.
+        Optional, if you feel uncomfortable about sharing NFT ID, please provide your Discord ticket number or send us an email.
         See [CONTRIBUTING.md](https://github.com/open-blox/runblox-app/blob/master/CONTRIBUTING.md>) about email format.
       placeholder: '12345'
+    validations:
+      required: false
+  - type: input
+    id: discord_ticket
+    attributes:
+      label: Discord Ticket Number
+      description: |
+        Optional, if you have opened a Discord ticket.
+      placeholder: '0000'
     validations:
       required: false
   - type: input
