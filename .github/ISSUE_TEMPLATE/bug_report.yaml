@@ -9,6 +9,8 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
         Before creating a new issue, please ask our community for help first and check if there are existing ones.
+        **If you do not feel like sharing private information (e.g. wallet address, email address, NFT ID), please open a Discord ticket providing such information.**
+        **Also you can drop us an email.**
         Please refer to [CONTRIBUTING.md](https://github.com/open-blox/runblox-app/blob/master/CONTRIBUTING.md>) on details of bug reports.
   - type: dropdown
     id: os
