@@ -70,6 +70,12 @@ This Code of Conduct presents a summary of the shared values and “common sense
 -   Get support from others in the community
 	> Likewise, you are usually not lone when you encountered an issue. Please search for existing issues/community support before opening a new issue.
 
+## Treasury Address
+
+| Name        | Safe Address    |
+| ------------- |:-------------:|
+| Treasury      | Arb1: 0x3d1FBF74dEC699ab9bd434A522560eb36C815503 |
+
 ## RunBlox Links:
 
 - [Linktree](https://linktr.ee/RunBlox)
